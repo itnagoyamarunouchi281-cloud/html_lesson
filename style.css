@@ -70,7 +70,7 @@ a {
 }
 
 .main {
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     background-color: #fac094;
     font-family: sans-serif;
@@ -343,16 +343,16 @@ footer p {
     }
 
     .main {
-        width: 70%;
+        width: auto;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
     }
 
     .main-visual {
-        width: 100%;
+        width: auto;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
-        background: url("images/プログラミング猫.png");
+        background: url("images/プログラミング猫_sp.png");
     }
 
     .top-subtitle {
@@ -377,7 +377,15 @@ footer p {
     }
 
     .favorites {
-        width: 100%;
+        background-color: #ffdba6;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .setumei1 {
@@ -403,6 +411,6 @@ footer p {
 
     .footer {
         text-align: center;
-        width: 70%;
+        width: auto;
     }
 }
