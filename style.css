@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 10px #dddddd;
+    position: fixed;
+    top: 0;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.header-left {
+    padding-left: 20px;
+    float: left;
+    margin-top: 5px;
+    color: black;
+}
+
+.header-right {
+    margin-left: auto;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.red {
+    color: #ff0000;
+}
+
+h1 {
+    color:#ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0 20px 0 auto;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.between {
+    padding : 0 20px;
+    margin: 20px 20px;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fac094;
+    font-family: sans-serif;
+}
+
+.main-visual {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: #f5f5f5;
+    background: url("../Ishigaki_html_lesson/images/プログラミング猫.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top-subtitle {
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-text {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    padding-top: 80px;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #d02b02;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 80px;
+    color: #ff0000;
+}
+
+.fontColor-blue {
+    color:#d30b04;
+}
+
+.myself {
+    text-align: left;
+    max-width: 600px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.top-image {
+    padding: 0 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.characterName {
+    font-weight: bold;
+}
+
+.changeFontSize {
+    font-size: 14px;
+    text-align: center;
+}
+
+h3 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.introduction_flexbox{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+.favorites
+ {
+    background-color: #ffdba6;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 48%;
+    height: auto;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.li01 li::marker {
+    color: #ff0000;
+    line-height: 1.0;
+    padding-left: 20px;
+}
+
+.li01 {
+    color: #ff0000;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+
+.li02 li::marker {
+    color: #ff009d;
+    line-height: 1.0;
+}
+
+.li02 {
+    color: #ff009d;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+
+a {
+    color: #ff009d;
+}
+
+h3 {
+    color: #ff6a00;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 80px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.titleColor {
+    color: #ff0000;
+    padding-top: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.setumei1 {
+    color: #000000;
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 0px;
+    width: 100%;
+    width: fit-content;
+}
+
+.setumei2 {
+    color: #000000;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 0px;
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+img {
+    width: 100%;
+    margin-top: 0px;
+}
+
+h4 {
+    padding-top: 80px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+.menu {
+    padding: 90px 0 60px;
+    color: #5a5c5f;
+}
+
+.menu-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    width: 33%;
+    margin-top: 35px;
+}
+
+.menu-card-inner {
+    padding: 25px 30px;
+    background-color: #dbe0e4;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px #d2d4d6;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.menu-title {
+    margin-bottom: 8px;
+    color: #fe6e55;
+}
+
+.menu-text {
+    font-size: 14px;
+    width: fit-content;
+}
+
+.alert-button {
+    margin: 20px auto 0;
+    width: 300px;
+    height: 40px;
+    color: #000000;
+    background: #ffdba6;
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 0 #818694);
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #a7854b;
+    font-family: sans-serif;
+}
+
+footer p {
+    background-color: #ffdba6;
+    padding-top: 20px;
+    width: 100%;
+    height: 120px;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (max-width: 678px) {
+    .header-left {
+        padding: 0;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .main {
+        width: 70%;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .main-visual {
+        width: 100%;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        background: url("../Ishigaki_html_lesson/images/プログラミング猫.png");
+    }
+
+    .top-subtitle {
+        font-size: 14px;
+    }
+
+    .top-text {
+        font-size: 12px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .introduction_flexbox {
+        display: block;
+        flex-direction: column;
+    }
+
+    .favorites {
+        width: 100%;
+    }
+
+    .setumei1 {
+        width: 90%;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .setumei2 {
+        width: 100%;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    p {
+        color: #000000;
+    }
+
+    .menu-card {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer {
+        text-align: center;
+        width: 70%;
+    }
+}
