@@ -81,7 +81,7 @@ a {
     height: 100vh;
     background-size: cover;
     color: #f5f5f5;
-    background: url("../html_lesson/images/プログラミング猫.png");
+    background: url("images/プログラミング猫.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -352,7 +352,7 @@ footer p {
         width: 100%;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
-        background: url("../html_lesson/images/プログラミング猫.png");
+        background: url("images/プログラミング猫.png");
     }
 
     .top-subtitle {
