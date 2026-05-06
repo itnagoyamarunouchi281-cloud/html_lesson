@@ -256,26 +256,33 @@
                 </div>
             </div>
 
-            <button class="alert-button">C</button>
-            <button class="alert-button">C++</button>
-            <button class="alert-button">C#</button>
-            <button class="alert-button">HTML</button>
-            <button class="alert-button">CSS</button>
-            <button class="alert-button">JavaScript</button>
+            <form>
+                <p>私が最も学んでいるプログラミング言語は何でしょう？</p>
+                <button class="alert-button">C</button>
+                <button class="alert-button">C++</button>
+                <button class="alert-button">C#</button>
+                <button class="alert-button">HTML</button>
+                <button class="alert-button">CSS</button>
+                <button class="alert-button">JavaScript</button>
+            </form>
 
             <script>
                 // JavaScriptのコードをここに記述
                 // 例:ボタンが押されたときにアラートを表示する
                 // 表示される質問に応じて、クイズを出題します
-                document.addEventListener('DOMContentLoaded', function() {
+                document.addEventListener('DOMContentLoaded', function() 
+                {
                     const alertButtons = document.querySelectorAll('.alert-button');
-                    alertButtons.forEach(function(button) {
-                        button.addEventListener('click', function() {
-                            let question = '私が最も学んでいるプログラミング言語は何でしょう？';
-                            alert(question);
-                            if(button.textContent === 'C#') {
+                    alertButtons.forEach(function(button)
+                    {
+                        button.addEventListener('click', function()
+                        {
+                            if(button.textContent === 'C#')
+                            {
                                 alert('正解です！');
-                            } else {
+                            }
+                            else
+                            {
                                 alert('不正解です！');
                             }
                         });
